@@ -1,0 +1,175 @@
+html body{
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   size: 100% 100%;
+   color: white;
+   height: 870px;
+   background-color: black;
+ }
+
+
+   ul{
+     list-style-type: none;
+   }
+
+   .message{
+     margin-top: 100px;
+     margin-left: 27px;
+   }
+
+   img{
+     width: 190px;
+   }
+
+   .message p {
+     font-family: Arial;
+     font-weight: bold;
+     font-size: 225px;
+     color: white;
+   }
+
+   header{
+     text-align: center;
+   }
+
+   .nav{
+     margin-top: 30px;
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+   }
+
+   .options{
+       margin-left: 17px;
+   }
+
+   ul li {
+     display: inline-block;
+     margin: auto 30px;
+   }
+
+   a {
+     text-decoration: none;
+     color: white;
+   }
+
+   #one {
+     position: relative;
+     bottom: 85px;
+   }
+
+   #two{
+     position: relative;
+     bottom: 3px;
+   }
+
+   #three {
+     position: relative;
+     bottom: 85px;
+   }
+
+
+/*end of nav*/
+/*.mainContainer{
+   text-align: center;
+   height: 100%;
+   margin-top: 90px;
+ }
+
+.mainContainer a{
+   color: white;
+ }
+
+.wrap{
+ height: 800px;
+ width: 1550px;
+ position: relative;
+ margin-right: 100px;
+}
+
+
+.box1{
+   position: absolute;
+   display: inline-block;
+   height: 100px;
+   transition: padding .1s ease-in-out .1s;
+ }
+.box1 a{
+     text-decoration: none;
+     color: white;
+}
+ .box2{
+   display: inline-block;
+   height: 100px;
+   position: absolute;
+   /*vertical-align: bottom;
+   transition: padding .1s ease-in-out .1s;
+ }
+ .box2 a{
+       text-decoration: none;
+       color: white;
+ }
+/*#F61F40
+ .box1, .box2{
+   width: 200px;
+   background-color: #F61F40 ;
+   padding: 100px 100px;
+   align-items: center;
+   border: none;
+   height: 250px;
+   border-radius: 10px;
+ }
+
+
+.box1:hover, .box2:hover{
+   padding: 90px 90px;
+ }*/
+
+
+ .mainContainer{
+   text-align: center;
+   height: 100%;
+   margin-top: 90px;
+ }
+
+ .mainContainer a{
+   color: white;
+ }
+
+
+ .box1{
+   display: inline-block;
+   height: 100px;
+   margin-right: 100px;
+   transition: padding .1s ease-in-out .1s;
+ }
+
+ .box1 a{
+   text-decoration: none;
+   color: white;
+ }
+
+ .box2{
+   display: inline-block;
+   height: 100px;
+   margin-left: 100px;
+   vertical-align: bottom;
+   transition: padding .1s ease-in-out .1s;
+ }
+
+ .box2 a{
+   text-decoration: none;
+   color: white;
+ }
+
+.box1, .box2{
+   width: 200px;
+   display: inline-block;
+   background-color: #F61F40;
+   padding: 100px 100px;
+   align-items: center;
+   border: none;
+   height: 250px;
+   justify-content: space-between;
+   border-radius: 10px;
+ }
